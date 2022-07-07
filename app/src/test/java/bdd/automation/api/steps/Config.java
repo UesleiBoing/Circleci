@@ -23,7 +23,7 @@ public class Config {
     }
 
     @Before
-    public String setup() {
+    public void setup() {
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
 
         ServerConfig properties = ConfigManager.getConfiguration();
