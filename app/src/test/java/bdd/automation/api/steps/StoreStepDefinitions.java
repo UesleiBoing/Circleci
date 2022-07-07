@@ -16,7 +16,7 @@ import io.restassured.response.Response;
 import static org.hamcrest.CoreMatchers.is;
 
 public class StoreStepDefinitions {
-
+    RemoverDepois
     PetApi petApi;
     StoreApi storeApi;
 
