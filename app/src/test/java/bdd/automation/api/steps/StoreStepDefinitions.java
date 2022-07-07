@@ -30,7 +30,7 @@ public class StoreStepDefinitions {
 
     @Given("I have a pet {word}")
     @Dado("que eu possua animal {word}")
-    public String iHaveAPetAvailable(String status) {
+    public void iHaveAPetAvailable(String status) {
         Pet pet = Pet.builder()
                 .id(333)
                 .status(status)
